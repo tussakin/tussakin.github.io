@@ -233,6 +233,10 @@ min-width: none;
 
 /* Portfolio page */
 
+.portfolio-intro{
+    max-width: 300px;
+}
+
 .columns {
     display: flex;
     flex-wrap: wrap;
