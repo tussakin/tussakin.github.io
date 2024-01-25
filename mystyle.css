@@ -1,27 +1,4 @@
 
-
-
-
-
-/* Övergång menu hoover°!!!!°°°°!! */
-
-
-
-
-body {
-    font-family: 'Cinzel', serif;
-    margin: 0;
-    background-color: #fefbf3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    z-index: 0;
-    max-height: 100%;
-    justify-content: center; 
-    transition: opacity 1s linear; 
-    min-height: 100vh;
-    }
-
 header {
     font-family: 'Cinzel', serif;
     background-color: #fefbf3;
@@ -78,6 +55,21 @@ header {
 }
 
 
+body {
+    font-family: 'Cinzel', serif;
+    margin: 0;
+    background-color: #fefbf3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 0;
+    max-height: 100%;
+    justify-content: center; 
+    transition: opacity 1s linear; 
+    min-height: 100vh;
+    }
+
+
 main {
     display: flex;
     align-items: center;
@@ -86,12 +78,12 @@ main {
     text-align: center;
 }
 
-h1{
-    text-decoration: underline;
+p{
+    font-size:  medium;
 }
 
-h4{
-    max-width: 500px;
+h1{
+    text-decoration: underline;
 }
 
 h3{
@@ -102,8 +94,10 @@ h3{
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+}
 
+h4{
+    max-width: 500px;
 }
 
 h5{
@@ -127,10 +121,6 @@ h6{
     margin-top: -20px;
 }
 
-p{
-    font-size:  medium;
-}
-
 
 
 .presentation{
@@ -139,12 +129,6 @@ p{
     justify-content: center;
     text-align: center;
 }
-
-
-
-/* .presentation-break{
-    margin-bottom: 20px;
-} */
 
 
 img {
@@ -211,7 +195,7 @@ img {
 
 
 
-
+/* Resume page */
 .resume{
 display:flex;
 grid-template-columns: repeat(2, 1);
@@ -247,7 +231,7 @@ min-width: none;
 
 
 
-/* pop up gallery */
+/* Portfolio page */
 
 .columns {
     display: flex;
@@ -312,10 +296,6 @@ min-width: none;
 
 }
 
-  
-
-
-
 .thumbnail img:hover{
     cursor:pointer;
 }
@@ -361,7 +341,6 @@ min-width: none;
 
 .popup-text {
     background-color: #fefbf3;
-    /* background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(226, 224, 216, 1), rgba(226, 224, 216, 1), rgba(226, 224, 216, 1), rgba(226, 224, 216, 1), rgba(255, 255, 255, 0));     */
     max-width: 30%; 
     font-size: small;
     height: auto;
@@ -409,6 +388,15 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Contact me page */
+
+
+.wrapper {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+}
+
 .contact {
     display: flex;
     justify-content: center;
@@ -428,7 +416,6 @@ input{
     border-color: rgb(201, 201, 201);
     background-color: #f5f0e2 ;
 }
-
 
 .contactme label{
 display: block;
@@ -463,13 +450,6 @@ a{
     flex: 1; 
 }
 
-
-
-.wrapper {
-    flex: 1; 
-    display: flex;
-    flex-direction: column;
-}
 
 
   footer {
@@ -559,9 +539,9 @@ nav a.active::after {
     content: '';
     display: block;
     position: absolute;
-    bottom: -5px; /* Adjust this value to position the underline */
+    bottom: -5px;
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #000000; /* Underline color */
+    background-color: #000000; 
 }
