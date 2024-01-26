@@ -18,6 +18,7 @@ header {
 
 .menuhover a:hover{
     background: linear-gradient( to bottom, transparent 60%, #c5beaa 100% ) ;
+    text-decoration:underline 2px;
 }
 
 
@@ -482,7 +483,7 @@ a{
     padding: 8px; 
     margin-bottom: 15px; 
     border: none;
-    border-bottom: 1px solid #000000; 
+    border-bottom: 2px solid #000000; 
     background-color: #fefbf3;
     box-sizing: border-box;
 }
