@@ -16,6 +16,11 @@ header {
 
 }
 
+.menuhover a:hover{
+    background: linear-gradient( to bottom, transparent 60%, #c5beaa 100% ) ;
+}
+
+
 @media screen and (max-width:500px){
     header .image-container{
         max-width: 400px;
@@ -121,6 +126,17 @@ h5{
     align-items: center;
     justify-content: center;
     margin-top: -20px;
+}
+
+.presentation h5{
+    font-size: small;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
 }
 
 h6{
@@ -368,8 +384,9 @@ min-width: none;
 }
 
 .popup-text {
-background-color: #fefbf3 ;    
-max-width: 35%; 
+    background-color: #fefbf3;
+    max-width: 35%;
+    height: auto;    
     font-size: small;
     height: auto;
     display: flex;
@@ -521,7 +538,6 @@ a{
 }
 
 .linksfooter a{
-    margin-right: 10px;
     justify-content: center;
     align-items: center;
     z-index: 1;
@@ -563,7 +579,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav a {
