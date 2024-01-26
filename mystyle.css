@@ -368,8 +368,8 @@ min-width: none;
 }
 
 .popup-text {
-    background-color: #fefbf3;
-    max-width: 30%; 
+background-color: #fefbf3 ;    
+max-width: 35%; 
     font-size: small;
     height: auto;
     display: flex;
