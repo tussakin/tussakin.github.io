@@ -146,17 +146,14 @@ header {
     header .image-container{
         max-width: 400px;
     }
-}
-
-@media screen and (max-width:700px){
     footer .image-container-footer{
         max-width: 400px;
     }
 }
 
 .dropdown {
-    display:flex;
-    flex-direction: column;
+    display:block;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -165,6 +162,7 @@ header {
   
   .dropdown-content {
     display: none;
+    flex-direction: row;
     top: 100%;
     position: absolute;
     background-color: #fefbf3;
@@ -173,16 +171,37 @@ header {
     z-index: 1;
     padding-top: -100px;
   }
+  
+  @media screen and (max-width: 700px) {
+  
+    .dropdown .dropdown-content{
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+    }
+    .menuhover ul{
+        flex-direction: column;
+        background-color: #fefbf3;
+        gap:15px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
 
   .dropdown:hover .dropdown-content {
-    display: flex;
+    display: block;
     position: absolute;
     height: 100%;
     width: 100%;
     color: black;
     align-items: center; 
     justify-content: center;
-    height: 100px;
+    height: 100px auto;
     width: 100%;
   }
 
