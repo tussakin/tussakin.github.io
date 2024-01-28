@@ -499,6 +499,20 @@ section {
 }
 
 
+
+
+
+.wcag h5{
+    padding-bottom: 50px;
+}
+
+.wcag h3{
+    padding-bottom:20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 /* Footer */
 
 
