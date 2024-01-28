@@ -75,9 +75,7 @@ h1{
 }
 
 h3{
-    max-width: 400px;
     font-size: medium;
-
     max-width: 500px;
     align-items: center;
     justify-content: center;
@@ -144,13 +142,13 @@ header {
 }
 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:700px){
     header .image-container{
         max-width: 400px;
     }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:700px){
     footer .image-container-footer{
         max-width: 400px;
     }
@@ -272,7 +270,7 @@ max-width: 800px;
 min-width: none;
 }
 
-@media screen and (max-width:500px)
+@media screen and (max-width:700px)
 {
     .resume{
     max-width: 500px;
@@ -355,7 +353,7 @@ min-width: none;
     text-align: center;
   }
   
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 700px) {
   .pair{
     flex-direction: column;
     text-align: center;
