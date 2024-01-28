@@ -418,7 +418,7 @@ min-width: none;
     overflow-y: overlay-scroll;
 }
 
-.popup-text p{
+.popup-text {
     background-color: #fefbf3;
     max-width: 35%;
     height: auto;    
