@@ -13,7 +13,7 @@ function closeGallery() {
 function handleKeyPress(event) {
     if (event.key === "Escape") {
         closeGallery();
-    }
+    } 
 }
 
 document.addEventListener("keydown", handleKeyPress);
